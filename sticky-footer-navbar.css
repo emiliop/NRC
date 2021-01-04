@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"), url('./assets/fonts/Roboto-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("Roboto-Bold"), url('./assets/fonts/Roboto-Bold.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Black";
+  src: local("Roboto-Black"), url('./assets/fonts/Roboto-Black.ttf') format("truetype");
+}
+
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+   .row{
+     margin: 0;
+   }
+  
+  .site-header {
+    width: 100%;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 8vh;
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+    padding-right: 0.5rem;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .redes{
+    font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
+  }
+  .img-redes{
+    height: 4.5vh;
+    width: auto;
+  }
+  
+   .main{
+    width: 100%;
+    background: url('./assets/images/ilustracion-horizontal.png'), #00cfd2 ;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 79.5vh;
+   }
+   .img-logo{
+    height: 35vh;
+    width: auto;
+  }
+  .descarga{
+    background-color: white;
+    text-align: center;
+    border-radius: 35px 0 0 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1vh;
+    font-size: 0.8rem;
+    margin-left: auto;
+    width: 6.5rem;
+  }
+
+  .seccion{
+    color: #fff;
+    text-decoration: none;
+  }
+  .btnIcon{
+    height: 1.5rem;
+    background-color: white;
+  }
+  .btnIconMobile{
+    background-color: white;
+    height: 20vw;
+  }
+  .android{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    background-color: #008186;
+    padding-bottom: 1.5vh;
+    padding-top: 0.6vh;
+    border-radius: 35px 0 0 35px;
+    width: 6.5rem;
+    margin-left: auto;
+  }
+  .iphone{
+    padding-top: 0.5vh;
+    width: 6rem;
+    padding-left: 2vh;
+    margin-left: auto;
+  }
+  label{
+    font-size: 1.4rem;
+  }
+  .form-control::-ms-expand {
+    display: none;
+  }
+  .form-control {
+    border: 1px solid #00cfd2;
+    border-radius: 0.5rem; 
+    appearance: none;
+    font-family: 'Roboto-Regular';
+    font-size: 0.95rem;
+    background-image: url("./assets/images/arrow.png");
+      background-position: 99% 58%;
+      background-repeat: no-repeat;
+      background-size: 1.2rem;
+    
+  }
+  
+  .descarga, label{
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+  }
+  .btnIngreso{
+    margin-top: 3.5rem;
+    border-radius: 35px;
+    background-color: #FF7602;
+    border-color: #FF7602;
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    font-size: 1.5rem;
+    min-width: 240px;
+  }
+  .btnIngresoMobile{
+    margin-top: 3.5rem;
+    border-radius: 90px;
+    background-color: #FF7602;
+    border-color: #FF7602;
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    font-size: 1.5rem;
+    min-width: 35vw;
+    min-height: 35vw;
+    height: 35vw;
+    width: 35vw;
+  }
+  
+  .main2{
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 79.5vh;
+   }
+
+  .text-aliados, .text-movil{
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+  }
+   .text-movil{
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+    font-size: 1.35em;
+  }
+
+  .text-aliados::before {
+    content: " ";
+    width: 17%;
+    position: absolute;
+    height: 0.3em;
+    background-color: #00cfd2;
+    top: 3.5em;
+    z-index: -1;
+    margin-left: 0;
+  }
+  
+   .footer-img{
+    height: 8rem;
+    width: auto;
+  }
+  .footer-img-nrc{
+    width: 17rem;
+    height: auto;
+  }
+  
+   .footer-img2{
+    height: 7rem;
+    padding-top: 3.5vh;
+    width: auto;
+   }
+
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+
+  @media (max-width: 380px) {
+    label{
+      font-size: 1rem;
+    }
+  
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    nav{
+      width: 100% !important;
+    }
+    .destino{
+      margin-top: 2vh;
+    }
+    .img-menu{
+      width: 3rem;
+      height: auto;
+    }
+    .main{
+      width: 100%;
+      background: url('./assets/images/ilustracion-vertical.png'), #00cfd2 ;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      height: auto;
+      padding-bottom: 60vh;
+     }
+     .btnIngreso{
+      margin-bottom: 40vh;
+    }
+   .aplicacion{
+      flex-direction: column;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+  }
+  .aliados{
+    align-items: center;
+  }
+  .main2{
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: auto;
+    padding-bottom: 60vh;
+   }
+  .text-aliados{
+    text-align: center;
+  }
+  .img-logo{
+    height: auto;
+    width: 100%;
+
+}
+.footer-img{
+  height: 12rem !important;
+  width: auto !important;
+
+}
+.footer-img2{
+  height: 8rem !important;
+  width: auto !important;
+
+}
+
+  .text-aliados::before {
+    content: " ";
+    width: 0;
+    position: absolute;
+    height:0;
+    background-color: #00cfd2;
+    top: 0;
+    z-index: -1;
+    margin-left: 0;
+  }
+    
+  }
+
+  @media (max-width: 920px) {
+    label{
+      font-size: 1.1rem;
+    }
+  
+  }
+
+
+  @media (max-width: 1290px) {
+    .footer-img{
+      height: 7rem;
+      width: auto;
+    }
+    
+     .footer-img2{
+      height: 6rem;
+      padding-top: 3.5vh;
+      width: auto;
+     }
+  }
+
+  @media (max-width: 1120px) {
+    .footer-img{
+      height: 6rem;
+      width: auto;
+    }
+    
+     .footer-img2{
+      height: 5rem;
+      padding-top: 3.5vh;
+      width: auto;
+     }
+  }
