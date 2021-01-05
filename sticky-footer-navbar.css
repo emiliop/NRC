@@ -25,12 +25,15 @@
    header{
     background-color: #f7f7f7;
    }
+   nav{
+     width: 75%;
+   }
   
   .site-header {
     width: 100%;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    height: 8vh;
+    height: 10vh;
   }
   .site-header a {
     color: #8e8e8e;
@@ -44,9 +47,10 @@
 
   .redes{
     font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
   }
   .img-redes{
-    height: 4.5vh;
+    height: 5.5vh;
     width: auto;
   }
   
@@ -56,7 +60,7 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 92vh;
+    height: 90vh;
    }
    .left{
     padding-right: 3rem;
@@ -114,6 +118,9 @@
     padding-left: 2vh;
     margin-left: auto;
   }
+.selector2{
+  margin-left: 2rem;
+}
   label{
     font-size: 1.4rem;
   }
@@ -121,11 +128,12 @@
     display: none;
   }
   .form-control {
-    border: 1px solid #00cfd2;
+    border: 1px solid #00465B;
     border-radius: 0.5rem; 
     appearance: none;
+    color: gray;
     font-family: 'Roboto-Regular';
-    font-size: 0.95rem;
+    font-size: 1.4rem;
     background-image: url("./assets/images/arrow.png");
       background-position: 99% 58%;
       background-repeat: no-repeat;
@@ -134,7 +142,7 @@
   }
   
   .descarga, label{
-    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
   }
   .btnIngreso{
     margin-top: 2rem;
@@ -147,6 +155,19 @@
     font-size: 1.35rem;
     min-width: 240px;
   }
+
+  .btnIngreso2{
+    margin-top: 3rem;
+    border-radius: 35px;
+    background-color: #FF7602;
+    border-color: #FF7602;
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+    font-size: 1.8rem;
+    min-width: 240px;
+  } 
+
   .btnIngresoMobile{
     margin-top: 3.5rem;
     border-radius: 90px;
@@ -169,7 +190,22 @@
     background-size: 100% auto;
     height: auto;
    }
+
+   span{
+     color: #FF7602;
+   }
+
+   .text-titulo{
+    font-family: "Roboto-bold", Arial, Helvetica, sans-serif;
+    font-size: 2.9rem;
+    word-spacing: 2px;
+    line-height: 3.4rem;
+   }
+   .naranja{
+    color:#FF7602;
+   }
    .main3{
+    color:white;
     width: 100%;
     background-color: #00465B;
     background-position: center bottom;
@@ -190,7 +226,7 @@
    }
 
    .video{
-    height: 65vh;
+    height: 95vh;
     width: 100%;
    }
 
@@ -211,6 +247,20 @@
    .text-movil{
     font-family: "Roboto-regular", Arial, Helvetica, sans-serif;
     font-size: 1.45rem;
+    letter-spacing: -0.3px;
+    line-height: 1.9rem;
+    word-spacing: 5.5px;
+  }
+  .text-movil4{
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: -0.3px;
+    line-height: 1.9rem;
+    word-spacing: 5.5px;
+  }
+  .text-movil5{
+    font-family: "Roboto-regular", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
     letter-spacing: -0.3px;
     line-height: 1.9rem;
     word-spacing: 5.5px;
@@ -273,7 +323,7 @@
       margin-top: 2vh;
     }
     .img-menu{
-      width: 3rem;
+      width: 4.5rem;
       height: auto;
     }
     .main{
@@ -294,9 +344,30 @@
     .btnIconMobile {
       height: 15vw;
   }
+  .btnIngreso2{
+    margin-top: 1.5rem;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    font-size: 1.4rem;
+    min-width: 200px;
+  }
   .btnIngresoMobile {
     font-size: 1.2rem;
     word-spacing: 4px;
+}
+.video {
+  height: 30vh;
+}
+.text-titulo{
+  font-size: 1.7rem;
+    word-spacing: 0px;
+    line-height: 2rem;
+}
+.text-movil{
+  font-size: 1.25rem;
+    letter-spacing: -0.5px;
+    line-height: 1.6rem;
+    word-spacing: 5.5px;
 }
    .aplicacion{
       flex-direction: column;
@@ -323,6 +394,19 @@
     width: 100%;
 
 }
+
+.selector2 {
+  margin-left: 0rem;
+  margin-top: 2rem;
+}
+.form-control {
+  font-size: 1rem;
+}
+.destino {
+  border-left: 0px dotted orange;
+  border-top: 3px dotted orange;
+  padding-top: 6vh;
+}
 .footer-img{
   height: 12rem !important;
   width: auto !important;
@@ -334,16 +418,9 @@
 
 }
 
-  .text-aliados::before {
-    content: " ";
-    width: 0;
-    position: absolute;
-    height:0;
-    background-color: #00cfd2;
-    top: 0;
-    z-index: -1;
-    margin-left: 0;
-  }
+.text-aliados::after {
+  height: 0;
+}
     
   }
 

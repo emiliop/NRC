@@ -14,8 +14,8 @@
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
   </head>
-  <header class="site-header sticky-top d-flex justify-content-center">
-    <nav class="w-75 d-flex flex-row align-items-center justify-content-end">
+  <header class="site-header sticky-top d-flex justify-content-end justify-content-md-center">
+    <nav class="d-flex flex-row align-items-center justify-content-end">
       
       <p class="py-0 px-4 my-0 text-center d-flex justify-content-center redes" href="#">Comparte en:</p>
       <a href="https://www.facebook.com/consejonoruegopararefugiados/"> <img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
@@ -59,25 +59,26 @@
     <div class="row main2">
       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
         <img class="img-menu mt-5 mb-4 iconWalk" src="./assets/images/icono-que-es-menu-movil-11.svg"  />
-        <p class=" text-center text-movil">¿Has tenido que salir de
+        <p class=" text-center text-titulo col-12 col-md-6 mt-2">¿Has tenido que salir de
           tu país en busca de refugio?</p>
-        <p class=" text-center text-movil">IPI Conse te informa rápida y fácilmente sobre:
+        <p class=" text-center text-movil mt-4 col-12 col-md-6"><b><span>IPI Conse</span> te informa rápida y fácilmente sobre:</b>
           Recomendaciones de protección internacional, pasos para tu solicitud
           de refugio, derechos de lomigrantes y refugiados, requisitos, visas,
           trámites, datos importantes de tu destino y centros de ayuda
           humanitaria, legal y sanitaria.</p>
-        <a class="btn btn-primary d-none d-md-block  col-3 col-xl-2 py-3 btnIngreso" href="#">Ingresa ahora</a>
+        <a class="btn btn-primary col-3 col-xl-2 py-3 btnIngreso2" href="#">Ingresa ahora</a>
           <img class="img-menu mt-5 iconWalk" src="./assets/images/icono-como-funciona-menu-movil-12.svg"  />
-          <p class=" text-center text-movil">¿Cómo funciona IPI Conse?</p>
-          <p class=" text-center text-movil pb-5">Mira el video y entenderás fácilmente de qué trata esta app</p>
+          <p class=" text-center text-titulo col-6 mt-4">¿Cómo funciona IPI Conse?</p>
+          <p class=" text-center text-movil mt-0 mt-md-2 pb-4 pb-md-5">Mira el video y entenderás fácilmente de qué trata <b>esta app</b></p>
           <iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-          <a class="btn btn-primary d-none d-md-block  col-3 col-xl-2 py-3 btnIngreso" href="#">Descarga ahora</a>
+          <a class="btn btn-primary col-3 col-xl-2 py-3 btnIngreso2 mb-2 mb-md-4" href="#">Descarga ahora</a>
           <img class="img-menu mt-5 iconWalk" src="./assets/images/icono-servicios-menu-movil-13.svg"  />
           
-          <p class=" text-center text-movil">Información útil para ti</p>
-          <p class=" text-center text-movil">Somos especialistas en protección internacional, encuentra en
-            IPI Conse información fácil de entender y de fuentes confiables
-            para migrantes y refugiados</p>
+          <p class=" text-center d-none d-md-block text-titulo col-12 col-md-6 mt-4">Información útil para ti</p>
+          <p class=" text-center d-md-none text-titulo col-12 col-md-6 mt-4">Información importante y útil para ti</p>
+          <p class=" text-center text-movil col-12 col-md-6">Somos <b>especialistas en protección internacional</b>, encuentra en
+            <b>IPI Conse</b> información fácil de entender y de fuentes confiables
+            para <b>migrantes y refugiados</b></p>
 
             <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -132,22 +133,22 @@
 
     <div class="row main3 pt-5">
       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-        <img class="iconWalk mt-1 d-none d-md-block d-md-flex" src="./assets/images/icono-ingresar-menu-movil-14.svg"  />
-        <p class=" text-center text-movil">Accede a IPI Conse</p>
-        <p class=" text-center text-movil">Ingresa inmediatamente a la información sobre protección
-          internacional que necesitas</p>
-        <div class="col-12 mt-3">
-          <div class="row">
-            <div class="col-12 col-md-6">
-            <label for="website">¿Cuál es tu nacionalidad?</label>
+        <img class="iconWalk mt-1 d-flex" src="./assets/images/icono-ingresar-menu-movil-14.svg"  />
+        <p class=" text-center text-titulo col-12 col-md-6 mt-5">Accede a IPI Conse</p>
+        <p class=" text-center text-movil col-12 col-md-6">Ingresa inmediatamente a la información sobre <b>protección
+          internacional</b> que necesitas</p>
+        <div class="col-12 mt-4">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-4 selector1">
+            <label for="website" class="mb-3">¿Cuál es tu nacionalidad?</label>
               <select formControlName="website" class="form-control col-12">
                   <option disabled>Select Website</option>
                   <option>Selecciona</option>
                   <option></option>
               </select>
             </div>
-            <div class="col-12 col-md-6">
-              <label for="website">¿Cuál es tu destino?</label>
+            <div class="col-12 col-md-4 selector2">
+              <label for="website" class="mb-3">¿Cuál es tu destino?</label>
               <select formControlName="website" class="form-control col-12">
                   <option disabled>Select Website</option>
                   <option>¿Hacia dónde vas?</option>
@@ -156,26 +157,26 @@
             </div>
             </div>
         </div>
-        <a class="btn btn-primary col-3 col-xl-2  py-3 btnIngreso mb-5" href="#">Ingresa ahora</a>
+        <a class="btn btn-primary col-3 col-xl-2  py-3 btnIngreso2 mb-5" href="#">Ingresa ahora</a>
       </div>
       
     </div>
 
     <div class="row main4 mt-4 mb-4">
       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-        <img class="iconWalk mt-4 d-none d-md-block d-md-flex" src="./assets/images/icono-descarga-menu-movil-15.svg"  />
-        <p class=" text-center text-movil">Descarga IPI Conse en tu celular</p>
-        <p class=" text-center text-movil">Puedes tener la app en tu Android o Iphone</p>
-        <div class="col-10 mt-3 mb-5">
+        <img class="iconWalk mt-5 mb-5 d-flex" src="./assets/images/icono-descarga-menu-movil-15.svg"  />
+        <p class=" text-center text-titulo naranja col-10 mb-0">Descarga IPI Conse en tu celular</p>
+        <p class=" text-center text-movil col-10 mt-1">Puedes tener la app en tu Android o Iphone</p>
+        <div class="col-10 mt-5 mb-5">
           <div class="row">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-              <p class=" text-center text-movil">IPI Conse en tu Android</p>
-              <p class=" text-center text-movil">Haz clic aqui para instalalr</p>
+              <p class=" text-center text-movil4"><b>IPI Conse en tu Android</b></p>
+              <p class=" text-center text-movil5">Haz clic aqui para instalar</p>
               <a  class=" d-flex flex-column justify-content-center"href="https://savethechildren.org.co/"> <img  class="store" src="./assets/images/logos ipi y aliados-05.svg"  /></a>
             </div>
             <div class="col-12 col-md-6 destino d-flex flex-column justify-content-center">
-              <p class=" text-center text-movil">IPI Conse en tu IPhone</p>
-              <p class=" text-center text-movil">Haz clic aqui para instalalr</p>
+              <p class=" text-center text-movil4"><b>IPI Conse en tu IPhone</b></p>
+              <p class=" text-center text-movil5">Haz clic aqui para instalar</p>
               <a  class="d-flex flex-column justify-content-center"href="https://savethechildren.org.co/"> <img  class="store" src="./assets/images/logos ipi y aliados-05.svg"  /></a>
             </div>
             </div>
