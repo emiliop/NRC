@@ -56,10 +56,16 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 79.5vh;
+    height: 92vh;
+   }
+   .left{
+    padding-right: 3rem;
+   }
+   .secNavbar{
+    margin-left: -4rem;
    }
    .img-logo{
-    height: 35vh;
+    height: 50vh;
     width: auto;
   }
   .descarga{
@@ -77,6 +83,8 @@
   .seccion{
     color: #fff;
     text-decoration: none;
+    font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
   }
   .btnIcon{
     height: 1.5rem;
@@ -129,14 +137,14 @@
     font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
   }
   .btnIngreso{
-    margin-top: 3.5rem;
+    margin-top: 2rem;
     border-radius: 35px;
     background-color: #FF7602;
     border-color: #FF7602;
     font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
-    padding-top: 0.3rem !important;
-    padding-bottom: 0.3rem !important;
-    font-size: 1.5rem;
+    padding-top: 0.35rem !important;
+    padding-bottom: 0.35rem !important;
+    font-size: 1.35rem;
     min-width: 240px;
   }
   .btnIngresoMobile{
@@ -195,14 +203,17 @@
   
    }
 
-  .text-aliados, .text-movil{
+  .text-aliados {
     font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     display: block;
   }
    .text-movil{
-    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
-    font-size: 1.35em;
+    font-family: "Roboto-regular", Arial, Helvetica, sans-serif;
+    font-size: 1.45rem;
+    letter-spacing: -0.3px;
+    line-height: 1.9rem;
+    word-spacing: 5.5px;
   }
 
   
@@ -272,11 +283,21 @@
       background-repeat: no-repeat;
       background-size: 100% auto;
       height: auto;
-      padding-bottom: 60vh;
+      padding-bottom: 40vh;
      }
+     .left {
+      padding-right: calc(var(--bs-gutter-x)/ 2);
+  }
      .btnIngreso{
       margin-bottom: 40vh;
     }
+    .btnIconMobile {
+      height: 15vw;
+  }
+  .btnIngresoMobile {
+    font-size: 1.2rem;
+    word-spacing: 4px;
+}
    .aplicacion{
       flex-direction: column;
       display: flex;
