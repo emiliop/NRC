@@ -32,7 +32,7 @@
   </header>
 
   <div id="mobileMenu" class="row menuMobile flex-column justify-content-center align-items-center">
-    <img id="hamburguerMobile" class="img-menuMobile offset-0 offset-md-2 mt-5 mb-4" src="./assets/images/menu.png"  />
+    <img id="hamburguerMobile" class="img-menuMobile offset-0 offset-md-2 mt-5 mb-4" src="./assets/images/menu-hamburguesa-menu abierto.svg"  />
     <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3 ">
       <a href="#quees" class="d-flex flex-row text-decoration-none text-dark">
         <img class="imgMenu" src="./assets/images/icono-que-es-menu-movil-11.svg" alt="">
@@ -52,16 +52,16 @@
       </a>
     </div>
     <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
-      <img class="imgMenu" src="./assets/images/icono-ingresar-menu-movil-14.svg" alt="">
-      <p class="ms-4 mb-0 textMenu align-self-center">Ingresa a la web</p>
+      <a href="#acceder" class="d-flex flex-row text-decoration-none text-dark">
+        <img class="imgMenu" src="./assets/images/icono-ingresar-menu-movil-14.svg" alt="">
+        <p class="ms-4 mb-0 textMenu align-self-center">Ingresa a la web</p>
+      </a>
     </div>
     <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
-      <img class="imgMenu" src="./assets/images/icono-descarga-menu-movil-15.svg" alt="">
-      <p class="ms-4 mb-0 textMenu align-self-center">Descarga la app</p>
-    </div>
-    <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
-      <img class="imgMenu" src="./assets/images/icono-que-es-menu-movil-11.svg" alt="">
-      <p class="ms-4 mb-0 textMenu align-self-center">Dejanos tu mensaje</p>
+      <a href="#descarga" class="d-flex flex-row text-decoration-none text-dark">
+        <img class="imgMenu" src="./assets/images/icono-descarga-menu-movil-15.svg" alt="">
+        <p class="ms-4 mb-0 textMenu align-self-center">Descarga la app</p>
+      </a>
     </div>
     
   </div>
@@ -69,7 +69,7 @@
   
     <div class="row main">
       <div class="col-12 col-md-6 mr-3 mt-5 d-flex left flex-column justify-content-center align-items-center justify-content-md-start align-items-md-start">
-        <img id="hamburguer" class="img-menu d-md-none offset-0 offset-md-2" src="./assets/images/menu.png"  />
+        <img id="hamburguer" class="img-menu d-md-none offset-0 offset-md-2" src="./assets/images/menu-hamburguesa-vista inicial.svg"  />
         <img class="img-logo mt-0 offset-md-1" src="./assets/images/logos ipi y aliados-02.svg"  />
         <p class="offset-0 offset-md-2 text-center text-md-start text-movil mb-0">Migrar implica muchos retos, necesitas
           prepararte para el viaje. Nuestra <b>app gratuita</b>
@@ -77,11 +77,11 @@
           <b>para migrantes y refugiados.</b> </p>
         
           <div class="offset-0 offset-md-2 col-10">
-            <div class="row justify-content-between">
-            <a class="btn btn-primary d-none d-md-block  col-3 col-xl-2 btnIngreso" href="#"><img class="btnIcon" src="./assets/images/icono-ingresar-menu-movil-14.svg"/>Ingresa a la web</a>
-            <a class="btn btn-primary d-none d-md-block  col-3 col-xl-2 btnIngreso" href="#"><img class="btnIcon" src="./assets/images/icono-descarga-menu-movil-15.svg"/>Descarga la app</a>
-            <a class="btn btn-primary col-3 col-xl-2 d-md-none btnIngresoMobile" href="#"><img class="btnIconMobile" src="./assets/images/icono-ingresar-menu-movil-14.svg"/>Ingresa a la web</a>
-            <a class="btn btn-primary col-3 col-xl-2 d-md-none btnIngresoMobile" href="#"><img class="btnIconMobile" src="./assets/images/icono-descarga-menu-movil-15.svg"/>Descarga la app</a>
+            <div class="row justify-content-around justify-content-md-between">
+            <a class="btn btn-primary d-none d-md-flex align-items-center justify-content-center col-3 col-xl-2 btnIngreso" href="#acceder"><img class="btnIcon" src="./assets/images/icono-boton-ingresa-horizontales.svg"/>Ingresa a la web</a>
+            <a class="btn btn-primary d-none d-md-flex align-items-center justify-content-center col-3 col-xl-2 btnIngreso" href="#descarga"><img class="btnIcon" src="./assets/images/icono-boton-descarga-horizontales.svg"/>Descarga la app</a>
+            <a class="btn btn-primary col-3 col-xl-2 d-flex flex-column align-items-center justify-content-center d-md-none btnIngresoMobile" href="#acceder"><img class="btnIconMobile" src="./assets/images/icono-boton-ingresa-versiónverticales.svg"/>Ingresa a la web</a>
+            <a class="btn btn-primary col-3 col-xl-2 d-flex flex-column align-items-center justify-content-center d-md-none btnIngresoMobile" href="#descarga"><img class="btnIconMobile" src="./assets/images/icono-boton-descarga-versionverticales.svg"/>Descarga la app</a>
           </div>
         </div>
         
@@ -91,7 +91,6 @@
         <a class="seccion" href="#quees">Qué es IPI Conse</a>
         <a class="seccion" href="#como">Cómo funciona</a>
         <a class="seccion" href="#servicios">Servicios</a>
-        <a class="seccion" href="#contacto">Contáctanos</a>
       </div>
       
     </div>
@@ -99,7 +98,7 @@
 
     <div id="quees" class="row main2 d-flex flex-column justify-content-center align-items-center">
       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-        <img class="img-menu mt-5 mb-4 iconWalk" src="./assets/images/icono-que-es-menu-movil-11.svg"  />
+        <img class="mt-5 mb-4 iconWalk" src="./assets/images/icono-que-es-menu-movil-11.svg"  />
         <p class=" text-center text-titulo col-12 col-md-6 mt-2">¿Has tenido que salir de
           tu país en busca de refugio?</p>
         <p class=" text-center text-movil mt-4 col-12 col-md-6"><b><span>IPI Conse</span> te informa rápida y fácilmente sobre:</b>
@@ -108,12 +107,12 @@
           trámites, datos importantes de tu destino y centros de ayuda
           humanitaria, legal y sanitaria.</p>
         <a class="btn btn-primary col-3 col-xl-2 py-3 btnIngreso2" href="#">Ingresa ahora</a>
-          <img class="img-menu mt-5 iconWalk" src="./assets/images/icono-como-funciona-menu-movil-12.svg"  />
+          <img class="mt-5 iconWalk" src="./assets/images/icono-como-funciona-menu-movil-12.svg"  />
           <p id="como" class=" text-center text-titulo col-12 col-md-6 mt-4">¿Cómo funciona IPI Conse?</p>
           <p class=" text-center text-movil mt-0 mt-md-2 pb-4 pb-md-5">Mira el video y entenderás fácilmente de qué trata <b>esta app</b></p>
-          <iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+          <iframe class="video" src="https://www.youtube.com/embed/jQ-HsFsmC8o"></iframe>
           <a class="btn btn-primary col-3 col-xl-2 py-3 btnIngreso2 mb-2 mb-md-4" href="#">Descarga ahora</a>
-          <img id="servicios" class="img-menu mt-5 iconWalk" src="./assets/images/icono-servicios-menu-movil-13.svg"  />
+          <img id="servicios" class="mt-5 iconWalk" src="./assets/images/icono-servicios-menu-movil-13.svg"  />
           
           <p class=" text-center d-none d-md-block text-titulo col-12 col-md-6 mt-4">Información útil para ti</p>
           <p class=" text-center d-md-none text-titulo col-12 col-md-6 mt-4">Información importante y útil para ti</p>
@@ -164,9 +163,9 @@
     
     
 
-    <div class="row main3 pt-5 mt-3">
+    <div id="acceder" class="row main3 pt-5 mt-3">
       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-        <img class="iconWalk mt-1 d-flex" src="./assets/images/icono-ingresar-menu-movil-14.svg"  />
+        <img class="iconWalk mt-1 d-flex" src="./assets/images//icono-boton-ingresa-versiónverticales.svg"  />
         <p class=" text-center text-titulo col-12 col-md-6 mt-5">Accede a IPI Conse</p>
         <p class=" text-center text-movil col-12 col-md-6">Ingresa inmediatamente a la información sobre <b>protección
           internacional</b> que necesitas</p>
@@ -195,7 +194,7 @@
       
     </div>
 
-    <div class="row main4 mt-4 mb-4">
+    <div id="descarga" class="row main4 mt-4 mb-4">
       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
         <img class="iconWalk mt-5 mb-5 d-flex" src="./assets/images/icono-descarga-menu-movil-15.svg"  />
         <p class=" text-center text-titulo naranja col-10 mb-0">Descarga IPI Conse en tu celular</p>
@@ -240,7 +239,8 @@
     <script type="text/javascript">
 
       $( window ).scroll(function() {
-        $("#mobileMenu").css("display", "none").fadeOut( "slow" );
+        $( ".menuMobile" ).slideUp("slow");
+        $("#hamburguer").css("display", "block");
       });
 
       $(document).ready(function(){
@@ -268,12 +268,15 @@
         $("#hamburguer").click(function() {
         $("#mobileMenu").slideDown("slow");
         $("#mobileMenu").css("display", "flex");
+        $("#hamburguer").css("display", "none");
       });
 
       $( ".img-menuMobile" ).click(function() {
         $( ".menuMobile" ).slideUp("slow");
+        $("#hamburguer").css("display", "block");
 
       });
+
       });
     </script>
 </html>

@@ -96,10 +96,9 @@
   }
   .btnIcon{
     height: 1.5rem;
-    background-color: white;
+    margin-right: 0.5rem;
   }
   .btnIconMobile{
-    background-color: white;
     height: 20vw;
   }
   .android{
@@ -173,7 +172,7 @@
   } 
 
   .btnIngresoMobile{
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     border-radius: 90px;
     background-color: #FF7602;
     border-color: #FF7602;
@@ -181,10 +180,10 @@
     padding-top: 0.3rem !important;
     padding-bottom: 0.3rem !important;
     font-size: 1.5rem;
-    min-width: 35vw;
-    min-height: 35vw;
-    height: 35vw;
-    width: 35vw;
+    min-width: 30vw;
+    min-height: 30vw;
+    height: 30vw;
+    width: 30vw;
   }
   
   .main2{
@@ -229,10 +228,11 @@
    .main3{
     color:white;
     width: 100%;
+    background: url('./assets/images/fondo-horizontales.svg'), #00465B ;
     background-color: #00465B;
-    background-position: center bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     height: auto;
    }
    .main4{
@@ -379,12 +379,12 @@
       margin-top: 2vh;
     }
     .img-menu{
-      width: 4.5rem;
+      width: 2.5rem;
       height: auto;
     }
     .img-menuMobile{
       color:  #00cfd2;
-      width: 4.5rem;
+      width: 4rem;
       height: auto;
     }
     .imgMenu{
@@ -416,7 +416,7 @@
       margin-bottom: 40vh;
     }
     .btnIconMobile {
-      height: 15vw;
+      height: 10vw;
   }
   .btnIngreso2{
     margin-top: 1.5rem;
@@ -427,7 +427,7 @@
   }
   .btnIngresoMobile {
     font-size: 1.1rem;
-    word-spacing: 4px;
+    word-spacing: 2px;
 }
 .video {
   height: 30vh;
@@ -473,6 +473,12 @@
   margin-left: 0rem;
   margin-top: 2rem;
 }
+.main3{
+  background: url('./assets/images/fondo-verticales.svg'), #00465B ;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 .form-control {
   font-size: 1rem;
 }
@@ -533,7 +539,7 @@
 }
 .btnIngreso {
   font-size: 1rem;
-  min-width: 170px;
+  min-width: 180px;
 }
 }
 
