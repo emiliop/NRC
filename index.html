@@ -6,6 +6,10 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.79.0">
+    <meta property="og:title" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
+    <meta property="og:description" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
+    <meta property="og:url" content="http://webdevelopmentscripts.com/64-how-to-change-the-address-bar-color-in-chrome-firefox-opera-safari" />
+    <meta property="og:image" content="http://webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg" />
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -16,21 +20,56 @@
     <link rel="stylesheet" type="text/css" href="./js/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css"/>
   </head>
-  <header class="site-header sticky-top d-flex justify-content-end justify-content-md-center">
+  <header class="site-header d-flex justify-content-end justify-content-md-center">
     <nav class="d-flex flex-row align-items-center justify-content-end">
       
       <p class="py-0 px-4 my-0 text-center d-flex justify-content-center redes" href="#">Comparte en:</p>
-      <a href="https://www.facebook.com/consejonoruegopararefugiados/"> <img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
-      <a href="https://web.whatsapp.com/"><img class="img-redes pr-2" src="./assets/images/icono whatsapp-19.svg"  /></a>
-      <a href="https://twitter.com/NRC_LAC"><img class="img-redes pr-2" src="./assets/images/icono twiter-20.svg"  /></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://nrc.org.co/&t=nrc" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Facebook"><img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
+      <a href="https://api.whatsapp.com/send?text=NRC https://nrc.org.co/" data-action="share/whatsapp/share" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on whatsapp"><img class="img-redes pr-2" src="./assets/images/icono whatsapp-19.svg"  /></a>
+      <a href="https://twitter.com/share?url=https://nrc.org.co/&text=nrc" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Twitter"><img class="img-redes pr-2" src="./assets/images/icono twiter-20.svg"  /></a>
       
     </nav>
   </header>
+
+  <div id="mobileMenu" class="row menuMobile flex-column justify-content-center align-items-center">
+    <img id="hamburguerMobile" class="img-menuMobile offset-0 offset-md-2 mt-5 mb-4" src="./assets/images/menu.png"  />
+    <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3 ">
+      <a href="#quees" class="d-flex flex-row text-decoration-none text-dark">
+        <img class="imgMenu" src="./assets/images/icono-que-es-menu-movil-11.svg" alt="">
+        <p class="ms-4 mb-0 textMenu align-self-center">Qué es IPI Conse</p>
+      </a>
+    </div>
+    <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
+      <a href="#como" class="d-flex flex-row text-decoration-none text-dark">
+        <img class="imgMenu" src="./assets/images/icono-como-funciona-menu-movil-12.svg" alt="">
+        <p class="ms-4 mb-0 textMenu align-self-center">Cómo funciona</p>
+      </a>
+    </div>
+    <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
+      <a href="#servicios" class="d-flex flex-row text-decoration-none text-dark">
+        <img class="imgMenu" src="./assets/images/icono-servicios-menu-movil-13.svg" alt="">
+        <p class="ms-4 mb-0 textMenu align-self-center">Servicios</p>
+      </a>
+    </div>
+    <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
+      <img class="imgMenu" src="./assets/images/icono-ingresar-menu-movil-14.svg" alt="">
+      <p class="ms-4 mb-0 textMenu align-self-center">Ingresa a la web</p>
+    </div>
+    <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
+      <img class="imgMenu" src="./assets/images/icono-descarga-menu-movil-15.svg" alt="">
+      <p class="ms-4 mb-0 textMenu align-self-center">Descarga la app</p>
+    </div>
+    <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
+      <img class="imgMenu" src="./assets/images/icono-que-es-menu-movil-11.svg" alt="">
+      <p class="ms-4 mb-0 textMenu align-self-center">Dejanos tu mensaje</p>
+    </div>
+    
+  </div>
   
   
     <div class="row main">
       <div class="col-12 col-md-6 mr-3 mt-5 d-flex left flex-column justify-content-center align-items-center justify-content-md-start align-items-md-start">
-        <img class="img-menu d-md-none offset-0 offset-md-2" src="./assets/images/menu.png"  />
+        <img id="hamburguer" class="img-menu d-md-none offset-0 offset-md-2" src="./assets/images/menu.png"  />
         <img class="img-logo mt-0 offset-md-1" src="./assets/images/logos ipi y aliados-02.svg"  />
         <p class="offset-0 offset-md-2 text-center text-md-start text-movil mb-0">Migrar implica muchos retos, necesitas
           prepararte para el viaje. Nuestra <b>app gratuita</b>
@@ -39,9 +78,9 @@
         
           <div class="offset-0 offset-md-2 col-10">
             <div class="row justify-content-between">
-            <a class="btn btn-primary d-none d-md-block  col-3 col-xl-2 btnIngreso" href="#"><img class="btnIcon" src="./assets/images/icono-ingresar-menu-movil-14.svg"/> Ingresa a la web</a>
+            <a class="btn btn-primary d-none d-md-block  col-3 col-xl-2 btnIngreso" href="#"><img class="btnIcon" src="./assets/images/icono-ingresar-menu-movil-14.svg"/>Ingresa a la web</a>
             <a class="btn btn-primary d-none d-md-block  col-3 col-xl-2 btnIngreso" href="#"><img class="btnIcon" src="./assets/images/icono-descarga-menu-movil-15.svg"/>Descarga la app</a>
-            <a class="btn btn-primary col-3 col-xl-2 d-md-none btnIngresoMobile" href="#"><img class="btnIconMobile" src="./assets/images/icono-ingresar-menu-movil-14.svg"/> Ingresa a la web</a>
+            <a class="btn btn-primary col-3 col-xl-2 d-md-none btnIngresoMobile" href="#"><img class="btnIconMobile" src="./assets/images/icono-ingresar-menu-movil-14.svg"/>Ingresa a la web</a>
             <a class="btn btn-primary col-3 col-xl-2 d-md-none btnIngresoMobile" href="#"><img class="btnIconMobile" src="./assets/images/icono-descarga-menu-movil-15.svg"/>Descarga la app</a>
           </div>
         </div>
@@ -49,16 +88,16 @@
       </div>
 
       <div class="col-12 col-md-6 mt-5 d-none d-md-block d-md-flex flex-row secNavbar justify-content-around">
-        <a class="seccion" href="#">Qué es IPI Conse</a>
-        <a class="seccion" href="#">Cómo funciona</a>
-        <a class="seccion" href="#">Servicios</a>
-        <a class="seccion" href="#">Contáctanos</a>
+        <a class="seccion" href="#quees">Qué es IPI Conse</a>
+        <a class="seccion" href="#como">Cómo funciona</a>
+        <a class="seccion" href="#servicios">Servicios</a>
+        <a class="seccion" href="#contacto">Contáctanos</a>
       </div>
       
     </div>
     
 
-    <div class="row main2 d-flex flex-column justify-content-center align-items-center">
+    <div id="quees" class="row main2 d-flex flex-column justify-content-center align-items-center">
       <div class="col-12 d-flex flex-column justify-content-center align-items-center">
         <img class="img-menu mt-5 mb-4 iconWalk" src="./assets/images/icono-que-es-menu-movil-11.svg"  />
         <p class=" text-center text-titulo col-12 col-md-6 mt-2">¿Has tenido que salir de
@@ -70,11 +109,11 @@
           humanitaria, legal y sanitaria.</p>
         <a class="btn btn-primary col-3 col-xl-2 py-3 btnIngreso2" href="#">Ingresa ahora</a>
           <img class="img-menu mt-5 iconWalk" src="./assets/images/icono-como-funciona-menu-movil-12.svg"  />
-          <p class=" text-center text-titulo col-6 mt-4">¿Cómo funciona IPI Conse?</p>
+          <p id="como" class=" text-center text-titulo col-6 mt-4">¿Cómo funciona IPI Conse?</p>
           <p class=" text-center text-movil mt-0 mt-md-2 pb-4 pb-md-5">Mira el video y entenderás fácilmente de qué trata <b>esta app</b></p>
           <iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
           <a class="btn btn-primary col-3 col-xl-2 py-3 btnIngreso2 mb-2 mb-md-4" href="#">Descarga ahora</a>
-          <img class="img-menu mt-5 iconWalk" src="./assets/images/icono-servicios-menu-movil-13.svg"  />
+          <img id="servicios" class="img-menu mt-5 iconWalk" src="./assets/images/icono-servicios-menu-movil-13.svg"  />
           
           <p class=" text-center d-none d-md-block text-titulo col-12 col-md-6 mt-4">Información útil para ti</p>
           <p class=" text-center d-md-none text-titulo col-12 col-md-6 mt-4">Información importante y útil para ti</p>
@@ -85,7 +124,7 @@
       </div> 
       
 
-      <div class="multiple-items col-10 mt-5 mb-5">
+      <div class="multiple-items col-10 mt-5 mb-5 d-flex justify-content-center align-items-center">
           <div class="d-flex flex-column">
             <img class="slideImg d-flex align-self-center" src="./assets/images/icon-requisitos-migratorios.png" alt="First slide">
             <p class="text-center slideText align-self-center">Requisitos para entrar al país</p>
@@ -181,7 +220,7 @@
     </div>
   
     <footer>
-      <div class="row">
+      <div id="contacto" class="row">
         <div class="col-12 col-md-6 aplicacion">
           <p class="mt-3 py-4 px-0 col-12 col-md-9 offset-0 offset-md-2 text-aliados mb-0" href="#">Una aplicación de</p>
           <a href="https://nrc.org.co/"><img class="offset-0 offset-md-2 mt-4 footer-img-nrc"   src="./assets/images/Logotipo-NRC.png"  /></a>
@@ -199,12 +238,17 @@
     <script type="text/javascript" src="./js/slick/slick.min.js"></script>
 
     <script type="text/javascript">
+
+      $( window ).scroll(function() {
+        $("#mobileMenu").css("display", "none").fadeOut( "slow" );
+      });
+
       $(document).ready(function(){
         $('.multiple-items').slick({
           infinite: true,
           arrows: true, 
-          prevArrow:'<button type="button" data-role="none" class="slick-prev">Previous</button>', 
-          nextArrow:'<button type="button" data-role="none" class="slick-next">Next</button>',
+          prevArrow:'<img  class="" src="./assets/images/flechaizq-12.svg"  />', 
+          nextArrow:'<img  class="" src="./assets/images/flechader-13.svg"  />',
           slidesToShow: 4,
           slidesToScroll: 1,
           responsive: [
@@ -213,14 +257,23 @@
             settings: {
               infinite: true,
               arrows: true, 
-              prevArrow:'<button type="button" data-role="none" class="slick-prev">Previous</button>', 
-              nextArrow:'<button type="button" data-role="none" class="slick-next">Next</button>',
+              prevArrow:'<img  class="" src="./assets/images/flechaizq-12.svg"  />', 
+              nextArrow:'<img  class="" src="./assets/images/flechader-13.svg"  />',
               slidesToShow: 2,
               slidesToScroll: 1,
             }
           }
         ]
         });
+        $("#hamburguer").click(function() {
+        $("#mobileMenu").slideDown("slow");
+        $("#mobileMenu").css("display", "flex");
+      });
+
+      $( ".img-menuMobile" ).click(function() {
+        $( ".menuMobile" ).slideUp("slow");
+
+      });
       });
     </script>
 </html>

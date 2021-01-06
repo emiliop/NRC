@@ -28,6 +28,10 @@
    nav{
      width: 75%;
    }
+
+   #mobileMenu {
+    display: none;
+  }
   
   .site-header {
     width: 100%;
@@ -205,13 +209,9 @@
     color:#FF7602;
    }
 
-   button.slick-prev.slick-arrow, button.slick-next.slick-arrow{
-    background-color: #FF7602;
+   img.slick-arrow {
+    height: 1rem;
     }
-
-    /* .slick-slide.slick-current.slick-active, .slick-slide.slick-cloned, .slick-slide{
-      width: 4rem !important;
-    } */
 
     img.slideImg {
       height: 80px;
@@ -341,12 +341,33 @@
     nav{
       width: 100% !important;
     }
+    #mobileMenu {
+      display: none;
+    }
     .destino{
       margin-top: 2vh;
     }
     .img-menu{
       width: 4.5rem;
       height: auto;
+    }
+    .img-menuMobile{
+      color:  #00cfd2;
+      width: 4.5rem;
+      height: auto;
+    }
+    .imgMenu{
+      height: 3rem;
+    }
+    .textMenu{
+      font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+      font-size: 1.3rem;
+      letter-spacing: -0.3px;
+      line-height: 1.9rem;
+      word-spacing: 5.5px;
+    }
+    .sectionMobile{
+      border-bottom: 1px solid #00cfd2;
     }
     .main{
       width: 100%;
