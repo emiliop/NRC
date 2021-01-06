@@ -204,6 +204,28 @@
    .naranja{
     color:#FF7602;
    }
+
+   button.slick-prev.slick-arrow, button.slick-next.slick-arrow{
+    background-color: #FF7602;
+    }
+
+    /* .slick-slide.slick-current.slick-active, .slick-slide.slick-cloned, .slick-slide{
+      width: 4rem !important;
+    } */
+
+    img.slideImg {
+      height: 80px;
+  }
+  .slideText{
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+    line-height: 1.3rem;
+    word-spacing: 1.5px;
+    width: 10rem;
+
+  }
+
    .main3{
     color:white;
     width: 100%;
@@ -384,7 +406,6 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: auto;
-    padding-bottom: 60vh;
    }
   .text-aliados{
     text-align: center;
@@ -394,6 +415,7 @@
     width: 100%;
 
 }
+
 
 .selector2 {
   margin-left: 0rem;
