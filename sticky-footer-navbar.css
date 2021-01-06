@@ -325,10 +325,35 @@
     flex: 1;
   }
 
-  @media (max-width: 380px) {
+  @media (max-width: 320px) and (min-width: 1px){
+    .btnIconMobile {
+      height: 15vw;
+  }
+    .slideText {
+      font-size: 0.7rem;
+      width: 6rem;
+    }
+    .btnIngresoMobile {
+      font-size: 0.8rem !important;
+      word-spacing: 0px;
+  }
+  }
+
+  
+
+  @media (max-width: 380px) and (min-width: 321px){
     label{
       font-size: 1rem;
     }
+    .slideText {
+      font-size: 0.9rem;
+      width: 8rem;
+  }
+  .btnIngresoMobile {
+    font-size:1.1rem !important;
+    word-spacing: 0px;
+}
+  
   
   }
   @media (min-width: 768px) {
@@ -337,7 +362,13 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) and (min-width: 480px) {
+    .btnIngresoMobile {
+        font-size: 1.6rem !important;
+    }
+  }
+
+  @media (max-width: 767px) {
     nav{
       width: 100% !important;
     }
@@ -395,7 +426,7 @@
     min-width: 200px;
   }
   .btnIngresoMobile {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     word-spacing: 4px;
 }
 .video {
@@ -467,13 +498,44 @@
     
   }
 
-  @media (max-width: 920px) {
+  @media (max-width: 1022px) and (min-width: 768px) {
+    .img-logo {
+      height: 30vh;
+  }
+    .seccion {
+      font-size: 0.7rem;
+  }
+  .secNavbar {
+    margin-left: 0rem;
+}
+.btnIngreso {
+  font-size: 0.6rem;
+  min-width: 130px;
+}
+.text-movil {
+  font-size: 1.1rem;
+}
     label{
       font-size: 1.1rem;
     }
   
   }
 
+  @media (max-width: 1119px) and (min-width: 1023px){
+    .img-logo {
+      height: 35vh;
+  }
+  .text-movil {
+    font-size: 1.25rem;
+  }
+.seccion {
+    font-size: 1rem;
+}
+.btnIngreso {
+  font-size: 1rem;
+  min-width: 170px;
+}
+}
 
   @media (max-width: 1290px) {
     .footer-img{
@@ -488,12 +550,25 @@
      }
   }
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1120px) and (min-width: 1219px) {
+
+    .seccion {
+      font-size: 1rem;
+  }
+  .img-logo {
+    height: 35vh;
+}
+.btnIngreso {
+  font-size: 1rem;
+  min-width: 170px;
+}
+.text-movil {
+  font-size: 1.2rem;
+}
     .footer-img{
       height: 6rem;
       width: auto;
     }
-    
      .footer-img2{
       height: 5rem;
       padding-top: 3.5vh;
