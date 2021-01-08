@@ -93,6 +93,7 @@
     text-decoration: none;
     font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
+    height: 5vh;
   }
   .btnIcon{
     height: 1.5rem;
