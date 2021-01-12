@@ -10,6 +10,9 @@
   font-family: "Roboto-Black";
   src: local("Roboto-Black"), url('./assets/fonts/Roboto-Black.ttf') format("truetype");
 }
+*{
+  color: #00465B;
+}
 
 .container {
     max-width: 960px;
@@ -224,6 +227,9 @@
     word-spacing: 1.5px;
     width: 10rem;
 
+  }
+  #acceder{
+    color:white;
   }
 
    .main3{
