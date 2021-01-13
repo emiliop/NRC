@@ -63,10 +63,10 @@
   
    .main{
     width: 100%;
-    background: url('./assets/images/ilustracion-horizontal.png'), #00cfd2 ;
-    background-position: center bottom;
+    background: url('./assets/images/Ilustracion-Horizontales-16.svg'), #00cfd2 ;
+    background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto;
     height: 90vh;
    }
    .left{
@@ -409,12 +409,12 @@
     }
     .main{
       width: 100%;
-      background: url('./assets/images/ilustracion-vertical.png'), #00cfd2 ;
+      background: url('./assets/images/ilustracion-verticales-33.svg'), #00cfd2 ;
       background-position: center bottom;
       background-repeat: no-repeat;
       background-size: 100% auto;
       height: auto;
-      padding-bottom: 40vh;
+      padding-bottom: 45vh;
      }
      .left {
       padding-right: calc(var(--bs-gutter-x)/ 2);
