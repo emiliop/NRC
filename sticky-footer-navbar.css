@@ -207,6 +207,10 @@
     left: 0; 
     z-index: -1; 
 } 
+
+div#wave {
+  z-index: 2;
+}
 .wavy{
   display: inline-block; 
             width: 100%; 
@@ -407,13 +411,11 @@ img.store:hover {
     width: auto;
   }
    .footer-img2{
-    height: 7rem;
-    padding-top: 3.5vh;
+    height: 6rem;
     width: auto;
    }
    .footer-img3{
-    height: 5.5rem;
-    padding-top: 3.5vh;
+    height: 4.5rem;
     width: auto;
    }
 
@@ -423,6 +425,9 @@ img.store:hover {
   }
 
   @media (max-width: 320px) and (min-width: 1px){
+    .main {
+      padding-bottom: 30vh !important;
+  }
     .btnIconMobile {
       height: 15vw;
   }
@@ -434,11 +439,24 @@ img.store:hover {
       font-size: 0.8rem !important;
       word-spacing: 0px;
   }
+  .footer-img-nrc {
+    margin-left: 0rem !important; 
+}
+ .footer-img2 {
+   height: 5rem !important;
+ }
+ .footer-img3 {
+  height: 4rem !important;
+}
+
   }
 
   
 
   @media (max-width: 380px) and (min-width: 321px){
+    .main {
+      padding-bottom: 30vh !important;
+  }
     label{
       font-size: 1rem;
     }
@@ -446,10 +464,19 @@ img.store:hover {
       font-size: 0.9rem;
       width: 8rem;
   }
-  .btnIngresoMobile {
-    font-size:1.1rem !important;
-    word-spacing: 0px;
-}
+      .btnIngresoMobile {
+        font-size:1.1rem !important;
+        word-spacing: 0px;
+    }
+    .footer-img-nrc {
+       margin-left: 1rem; 
+  }
+    .footer-img2 {
+      height: 5rem !important;
+    }
+    .footer-img3 {
+      height: 4rem !important;
+  }
   
   
   }
@@ -462,6 +489,11 @@ img.store:hover {
   @media (max-width: 767px) and (min-width: 480px) {
     .btnIngresoMobile {
         font-size: 1.6rem !important;
+    }
+    .footer-img2{
+      height: 8rem !important;
+      width: auto !important;
+    
     }
   }
 
@@ -534,6 +566,9 @@ img.store:hover {
     word-spacing: 0px;
     line-height: 2rem;
 }
+.bodyText {
+  padding: 0 1rem;
+}
 .text-movil{
   font-size: 1.25rem;
     letter-spacing: -0.5px;
@@ -556,6 +591,24 @@ img.store:hover {
     background-size: 100% auto;
     height: auto;
    }
+
+   .wavy {
+    height: 12vh;
+    margin-top: 0rem;
+}
+
+   .main2 .backgray img.iconWalk {
+    margin-top: -1rem;
+}
+
+.wavy2 {
+  height: 12vh;
+  margin-top: 0rem;
+}
+
+#servicios {
+  margin-top: -1rem;
+}
   .text-aliados{
     text-align: center;
   }
@@ -565,6 +618,9 @@ img.store:hover {
 
 }
 
+img.slick-arrow {
+  height: 1.5rem;
+}
 
 .selector2 {
   margin-left: 0rem;
@@ -588,15 +644,22 @@ img.store:hover {
   padding-top: 6vh;
     margin-top: 6vh;
 }
+
+.footer-img-nrc {
+  margin-left: 0rem !important;
+}
+.logosRight {
+  margin-left: 0rem;
+  padding-bottom: 6rem;
+}
 .footer-img{
   height: 12rem !important;
   width: auto !important;
 
 }
-.footer-img2{
-  height: 8rem !important;
-  width: auto !important;
 
+.logo3 {
+  padding-top: 2rem;
 }
 
 .text-aliados::after {
@@ -625,6 +688,28 @@ img.store:hover {
     label{
       font-size: 1.1rem;
     }
+    .footer-img-nrc {
+      width: 12rem !important;
+      height: auto;
+      margin-left: 1rem;
+  }
+    .footer-img{
+      height: 6rem !important;
+      width: auto;
+    }
+    
+     .footer-img2{
+      height: 3rem !important;
+      padding-top: 0;
+      width: auto;
+    }
+      
+
+     .footer-img3 {
+      height: 2rem !important;
+      padding-top: 0;
+      width: auto;
+    }
   
   }
 
@@ -642,19 +727,50 @@ img.store:hover {
   font-size: 1rem;
   min-width: 180px;
 }
+
+.footer-img-nrc {
+  width: 17rem;
+  height: auto;
+  margin-left: 0rem;
+}
+.footer-img{
+  height: 6rem;
+  width: auto;
 }
 
+ .footer-img2{
+  height: 3rem;
+  width: auto;
+}
+  
+
+ .footer-img3 {
+  height: 2rem !important;
+  width: auto;
+}
+  }
+
   @media (max-width: 1290px) {
+
+    .footer-img-nrc {
+      margin-left: 1rem;
+  }
+
     .footer-img{
       height: 7rem;
       width: auto;
     }
     
      .footer-img2{
-      height: 6rem;
-      padding-top: 3.5vh;
+      height: 4rem;
+      padding-top: 0;
       width: auto;
      }
+
+     .footer-img3 {
+      height: 5.5rem;
+      padding-top: 0vh;
+     
   }
 
   @media (max-width: 1120px) and (min-width: 1219px) {
