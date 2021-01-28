@@ -425,6 +425,7 @@ img.store:hover {
    .footer-img3{
     height: 4.5rem;
     width: auto;
+    max-width: 220px;
    }
 
   
@@ -503,6 +504,12 @@ img.store:hover {
   
   
   }
+
+  @media (max-width: 766px) and (min-width: 381px) {
+    .main {
+     max-height: 930px;
+  }
+  }
   @media (min-width: 768px) {
     .flex-md-equal > * {
       flex: 1;
@@ -510,6 +517,10 @@ img.store:hover {
   }
 
   @media (max-width: 767px) and (min-width: 480px) {
+
+    .main{
+      max-height: 11168px;
+    }
     .btnIngresoMobile {
         font-size: 1.6rem !important;
     }
@@ -566,7 +577,6 @@ img.store:hover {
       background-size: 100% auto;
       height: auto;
       padding-bottom: 70vh;
-      max-height: 900px;
      }
      .left {
       padding-right: calc(var(--bs-gutter-x)/ 2);
@@ -813,7 +823,7 @@ height: 44.4%;
      }
   }
 
-  @media (max-width: 1120px) and (min-width: 1219px) {
+  @media (max-width: 1319px) and (min-width: 1120px) {
 
   .seccion {
     font-size: 1rem;
@@ -822,8 +832,8 @@ height: 44.4%;
     height: 35vh;
   }
   .btnIngreso {
-    font-size: 1rem;
-    min-width: 170px;
+    font-size: 1.15rem;
+    min-width: 199px !important;
   }
   .text-movil {
     font-size: 1.2rem;
@@ -834,7 +844,6 @@ height: 44.4%;
   }
   .footer-img2{
   height: 5rem;
-  padding-top: 3.5vh;
   width: auto;
   }
 }
