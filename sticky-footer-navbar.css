@@ -44,6 +44,7 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     height: 10vh;
+    min-height: 75px;
   }
   .site-header a {
     color: #8e8e8e;
@@ -62,6 +63,7 @@
   .img-redes{
     height: 5.5vh;
     width: auto;
+    min-height: 45px;
   }
   
    .main{
@@ -71,6 +73,7 @@
     background-repeat: no-repeat;
     background-size: auto;
     height: 90vh;
+    min-height: 768px;
    }
    .left{
     padding-right: 3rem;
@@ -81,6 +84,7 @@
    .img-logo{
     height: 50vh;
     width: auto;
+    min-height: 200px;
   }
   .descarga{
     background-color: white;
@@ -180,7 +184,7 @@
 
   .btnIngresoMobile{
     margin-top: 2.5rem;
-    border-radius: 90px;
+    border-radius: 120px;
     background-color: #FF7602;
     border-color: #FF7602;
     font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
@@ -220,6 +224,7 @@ div#wave {
             left: 0;
             height: 30vh;
             margin-top: -4rem;
+            min-height: 200px;
 }
 .main2 .backgray img.iconWalk{
 margin-top: -6rem;
@@ -233,6 +238,7 @@ margin-top: -6rem;
             top: 0; 
             left: 0;
             height: 30vh;
+            min-height: 200px;
             margin-top: -5rem;
     z-index: -1;
             
@@ -314,11 +320,13 @@ margin-top: -6rem;
    
    .iconWalk{
     height: 8vh;
+    min-height: 70px;
    }
 
    .video{
     height: 95vh;
     width: 100%;
+    min-height: 600px;
    }
 
    .store{
@@ -426,7 +434,7 @@ img.store:hover {
 
   @media (max-width: 320px) and (min-width: 1px){
     .main {
-      padding-bottom: 30vh !important;
+      padding-bottom: 40vh !important;
   }
     .btnIconMobile {
       height: 15vw;
@@ -439,6 +447,12 @@ img.store:hover {
       font-size: 0.8rem !important;
       word-spacing: 0px;
   }
+  .store {
+    height: 45%!important;
+}
+.store:hover{
+ height: 44.4%;
+}
   .footer-img-nrc {
     margin-left: 0rem !important; 
 }
@@ -455,7 +469,7 @@ img.store:hover {
 
   @media (max-width: 380px) and (min-width: 321px){
     .main {
-      padding-bottom: 30vh !important;
+      padding-bottom: 45vh !important;
   }
     label{
       font-size: 1rem;
@@ -468,6 +482,15 @@ img.store:hover {
         font-size:1.1rem !important;
         word-spacing: 0px;
     }
+    .store {
+      height: 45%!important;
+  }
+  .store {
+    height: 45%!important;
+}
+.store:hover{
+ height: 44.4%;
+}
     .footer-img-nrc {
        margin-left: 1rem; 
   }
@@ -495,6 +518,12 @@ img.store:hover {
       width: auto !important;
     
     }
+    .store {
+      height: 45%!important;
+  }
+  .store:hover{
+   height: 44.4%;
+  }
   }
 
   @media (max-width: 767px) {
@@ -536,7 +565,8 @@ img.store:hover {
       background-repeat: no-repeat;
       background-size: 100% auto;
       height: auto;
-      padding-bottom: 45vh;
+      padding-bottom: 70vh;
+      max-height: 900px;
      }
      .left {
       padding-right: calc(var(--bs-gutter-x)/ 2);
@@ -548,7 +578,7 @@ img.store:hover {
       height: 10vw;
   }
   .btnIngreso2{
-    margin-top: 1.5rem;
+    margin-top: 5.5rem;
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
     font-size: 1.4rem;
@@ -632,9 +662,7 @@ img.slick-arrow {
     background-repeat: no-repeat;
     background-size: cover;
  }
- .store {
-  height: 100%;
-}
+
 .form-control {
   font-size: 1rem;
 }
@@ -644,7 +672,12 @@ img.slick-arrow {
   padding-top: 6vh;
     margin-top: 6vh;
 }
-
+.store {
+  height: 45%!important;
+}
+.store:hover{
+height: 44.4%;
+}
 .footer-img-nrc {
   margin-left: 0rem !important;
 }
@@ -670,10 +703,10 @@ img.slick-arrow {
 
   @media (max-width: 1022px) and (min-width: 768px) {
     .img-logo {
-      height: 30vh;
+      height: 25vh;
   }
     .seccion {
-      font-size: 0.7rem;
+      font-size: 0.9rem;
   }
   .secNavbar {
     margin-left: 0rem;
@@ -688,6 +721,12 @@ img.slick-arrow {
     label{
       font-size: 1.1rem;
     }
+    .store {
+      height: 45%!important;
+  }
+  .store:hover{
+   height: 44.4%;
+  }
     .footer-img-nrc {
       width: 12rem !important;
       height: auto;
@@ -715,13 +754,13 @@ img.slick-arrow {
 
   @media (max-width: 1119px) and (min-width: 1023px){
     .img-logo {
-      height: 35vh;
+      height: 25vh;
   }
   .text-movil {
     font-size: 1.25rem;
   }
 .seccion {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .btnIngreso {
   font-size: 1rem;
@@ -770,6 +809,7 @@ img.slick-arrow {
      .footer-img3 {
       height: 5.5rem;
       padding-top: 0vh;
+      max-width: 180px;
      
   }
 
