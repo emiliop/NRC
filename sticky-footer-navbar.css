@@ -449,10 +449,10 @@ img.store:hover {
       word-spacing: 0px;
   }
   .store {
-    height: 45%!important;
+    height: 85%!important;
 }
 .store:hover{
- height: 44.4%;
+ height: 84.4%;
 }
   .footer-img-nrc {
     margin-left: 0rem !important; 
@@ -484,13 +484,10 @@ img.store:hover {
         word-spacing: 0px;
     }
     .store {
-      height: 45%!important;
-  }
-  .store {
-    height: 45%!important;
+      height: 85%!important;
 }
 .store:hover{
- height: 44.4%;
+ height: 84.4%;
 }
     .footer-img-nrc {
        margin-left: 1rem; 
@@ -530,10 +527,10 @@ img.store:hover {
     
     }
     .store {
-      height: 45%!important;
+      height: 85%!important;
   }
   .store:hover{
-   height: 44.4%;
+   height: 84.4%;
   }
   }
 
@@ -683,10 +680,10 @@ img.slick-arrow {
     margin-top: 6vh;
 }
 .store {
-  height: 45%!important;
+  height: 85%!important;
 }
 .store:hover{
-height: 44.4%;
+height: 84.4%;
 }
 .footer-img-nrc {
   margin-left: 0rem !important;
@@ -732,10 +729,10 @@ height: 44.4%;
       font-size: 1.1rem;
     }
     .store {
-      height: 45%!important;
+      height: 85%!important;
   }
   .store:hover{
-   height: 44.4%;
+   height: 84.4%;
   }
     .footer-img-nrc {
       width: 12rem !important;
