@@ -2,14 +2,15 @@
 <html lang="en" class="h-100">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.79.0">
+    <meta property="fb:app_id" content="IPI_id" />
     <meta property="og:title" content="IPI conse" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="IPI conse">
+    <meta property="og:url" content="https://devipiconse.azurewebsites.net" />
+    <meta property="og:image" itemprop="image" content="https://devipiconse.azurewebsites.net/static/IndexResponsive/assets/images/icono-whatsapp.png" />
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
     <meta property="og:description" content="¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados" />
-    <meta property="og:url" content="http://ipi.conse.co/" />
-    <meta property="og:image" content="https://devipiconse.azurewebsites.net/static/IndexResponsive/assets/images/Logo IPI V3.png" />
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -24,12 +25,55 @@
     <nav class="d-flex flex-row align-items-center justify-content-end">
       
       <p class="py-0 px-4 my-0 text-center d-flex justify-content-center redes" href="#">Comparte en:</p>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http://ipi.conse.co" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Facebook"><img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
-      <a href="https://api.whatsapp.com/send?text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados  http://ipi.conse.co//" data-action="share/whatsapp/share" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on whatsapp"><img class="img-redes pr-2" src="./assets/images/icono whatsapp-19.svg"  /></a>
-      <a href="https://twitter.com/intent/tweet?url=http://ipi.conse.co&text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados " onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Twitter"><img class="img-redes pr-2" src="./assets/images/icono twiter-20.svg"  /></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://devipiconse.azurewebsites.net/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Facebook"><img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
+      <a href="https://api.whatsapp.com/send?text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados  https://devipiconse.azurewebsites.net///" data-action="share/whatsapp/share" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on whatsapp"><img class="img-redes pr-2" src="./assets/images/icono whatsapp-19.svg"  /></a>
+      <a href="https://twitter.com/intent/tweet?url=https://devipiconse.azurewebsites.net/&text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados " onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Twitter"><img class="img-redes pr-2" src="./assets/images/icono twiter-20.svg"  /></a>
       
     </nav>
   </header>
+
+  <div class="tiendas" class="btn btn-primary">
+    
+      <img src="./assets/images/btn-tiendas.png" width="219" height="46" alt="">
+  </div>
+
+  <div class="modal-tiendas" id="myModaltienda">
+    
+  
+      <!-- Modal content-->						
+        
+          
+          <div class="row modalRow">
+
+            <div class="buttonClose text-center">
+              <button  type="button" class="close">×</button>
+            </div>
+
+            <div class="col-md-6"><p>Escanea este código para descargar la aplicación en teléfonos Android.</p>
+              <div class="text-center">
+                <img src="./assets/images/qr.png" width="200" height="200" alt=""> 
+              </div>
+            </div>
+            <div class="col-md-6"><p>Escanea este código para descargar la aplicación en teléfonos iPhone.</p>
+              <div class="text-center">
+                <img src="./assets/images/appStoreIPI.png" width="200" height="200" alt=""> 
+              </div>
+            </div>
+            <div class="col-md-12 text-center"><p>O pulsa el ícono de tu tienda.</p>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="text-center">
+                <a href="https://play.google.com/store/apps/details?id=co.conse.ipi&amp;hl=en" target="_blank"><img src="./assets/images/gplay_negro.png" width="109" height="26" alt=""></a> 
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="text-center">
+                <a href="https://apps.apple.com/us/app/ipi-conse/id1463912325?l=es&amp;ls=1" target="_blank"><img src="./assets/images/appstore_negro.png" width="101" height="27" alt=""></a> 
+              </div>
+            </div>
+          </div>
+        
+    </div>
 
   <div id="mobileMenu" class="row menuMobile flex-column justify-content-center align-items-center">
     <img id="hamburguerMobile" class="img-menuMobile offset-0 offset-md-2 mt-5 mb-4" src="./assets/images/menu-hamburguesa-menu abierto.svg"  />
@@ -135,41 +179,76 @@
       
 
       <div class="multiple-items col-10 mt-5 mb-5 d-flex justify-content-center align-items-center">
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-requisitos-migratorios.png" alt="First slide">
-            <p class="text-center slideText align-self-center">Requisitos para entrar al país</p>
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-requisitos-migratorios.png" alt="First slide">
+              <p class="text-center slideText align-self-center">Requisitos para entrar al país</p>
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-solicitud-refugio.png" alt="Second slide">
-            <p class="text-center slideText align-self-center">Cómo solicitar refugio</p>
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-solicitud-refugio.png" alt="Second slide">
+              <p class="text-center slideText align-self-center">Cómo solicitar refugio</p>
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-documentos.png" alt="Third slide">
-            <p class="text-center slideText align-self-center">Documentos que debes tener</p>
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-documentos.png" alt="Third slide">
+              <p class="text-center slideText align-self-center">Documentos que debes tener</p>
+            </a>
           </div>
+          
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-requisitos-nacionalizacion.png" alt="Fourth slide">
-            <p class="text-center slideText align-self-center">Requisitos para nacionalizarte</p>
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-requisitos-nacionalizacion.png" alt="Fourth slide">
+              <p class="text-center slideText align-self-center">Requisitos para nacionalizarte</p>
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-covid.png" alt="Fifth slide">
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-covid.png" alt="Fifth slide">
+          
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-datos-generales.png" alt="Sixth slide">
+            <a href="#acceder" class="d-flex flex-column">
+             <img class="slideImg d-flex align-self-center" src="./assets/images/icon-datos-generales.png" alt="Sixth slide">
+         
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-derechos-basicos.png" alt="Seventh slide">
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-derechos-basicos.png" alt="Seventh slide">
+         
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-visas.png" alt="Eigth slide">
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-visas.png" alt="Eigth slide">
+          
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-directorio.png" alt="Nineth slide">
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-directorio.png" alt="Nineth slide">
+         
+            </a>
           </div>
+
           <div class="d-flex flex-column">
-            <img class="slideImg d-flex align-self-center" src="./assets/images/icon-recomendaciones-proteccion.png" alt="Tenth slide">
+            <a href="#acceder" class="d-flex flex-column">
+              <img class="slideImg d-flex align-self-center" src="./assets/images/icon-recomendaciones-proteccion.png" alt="Tenth slide">
+
+            </a>
           </div>
-      </div>
     </div>
     
     
@@ -256,13 +335,14 @@
         </div>
       </div>
     </footer>
+    
     <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="./js/slick/slick.min.js"></script>
 
     <script type="text/javascript">
 
       $( window ).scroll(function() {
-        $( ".menuMobile" ).slideUp("slow");
+        $( ".menuMobile" ).slideUp(1);
         $("#hamburguer").css("display", "block");
       });
 
@@ -289,14 +369,26 @@
         ]
         });
         $("#hamburguer").click(function() {
-        $("#mobileMenu").slideDown("slow");
+        $("#mobileMenu").slideDown(1);
         $("#mobileMenu").css("display", "flex");
         $("#hamburguer").css("display", "none");
       });
 
       $( ".img-menuMobile" ).click(function() {
-        $( ".menuMobile" ).slideUp("slow");
+        $( ".menuMobile" ).slideUp(1);
         $("#hamburguer").css("display", "block");
+
+      });
+
+      $( ".tiendas" ).click(function() {
+        $(".modal-tiendas").css("display", "flex");
+        $(".modal-tiendas").css("z-index", "9");
+
+      });
+
+      $( ".buttonClose" ).click(function() {
+        $(".modal-tiendas").css("display", "none");
+        console.log("sadasd");
 
       });
 
