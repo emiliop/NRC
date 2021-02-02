@@ -607,6 +607,9 @@ img.store:hover {
       width: 4rem;
       height: auto;
     }
+    img#hamburguerMobile {
+      margin-top: 8.5rem!important;
+  }
     .imgMenu{
       height: 3rem;
     }
