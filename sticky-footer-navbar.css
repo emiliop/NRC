@@ -49,7 +49,6 @@ a{
     backdrop-filter: saturate(180%) blur(20px);
     height: 10vh;
     min-height: 75px;
-    position: absolute;
   }
   .site-header a {
     color: #8e8e8e;
@@ -77,8 +76,8 @@ a{
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: auto;
-    height: 100vh;
-    min-height: 768px;
+    height: 90vh;
+    min-height: 685px;
    }
    .left{
     padding-right: 3rem;
@@ -162,6 +161,9 @@ a{
   
   .descarga, label{
     font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+  }
+  .migrar{
+    margin-top: -2rem;
   }
   .btnIngreso{
     margin-top: 2rem;
@@ -448,13 +450,14 @@ img.store:hover {
   .modal-tiendas{
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4);
     display: flex;
     justify-content: center;
     align-items: center;
     display: none;
+    top: 0;
   }
   .modalRow{
     font-size: 0.8rem;
@@ -556,7 +559,7 @@ img.store:hover {
 
   @media (max-width: 766px) and (min-width: 381px) {
     .main {
-     max-height: 930px;
+     max-height: 970px;
   }
   }
   @media (min-width: 768px) {
@@ -584,6 +587,9 @@ img.store:hover {
   }
 
   @media (max-width: 767px) {
+    html {
+      scroll-padding-top: 500px; /* height of sticky header */
+    }
     nav{
       width: 100% !important;
     }
@@ -600,16 +606,13 @@ img.store:hover {
     .img-menu{
       width: 2.5rem;
       height: auto;
-      margin-top: 12vh;
+      margin-top: 0vh;
     }
     .img-menuMobile{
       color:  #00cfd2;
       width: 4rem;
       height: auto;
     }
-    img#hamburguerMobile {
-      margin-top: 8.5rem!important;
-  }
     .imgMenu{
       height: 3rem;
     }
@@ -635,6 +638,9 @@ img.store:hover {
      .left {
       padding-right: calc(var(--bs-gutter-x)/ 2);
   }
+  .leftSec{
+    margin-top: 3.7rem;
+   }
      .btnIngreso{
       margin-bottom: 40vh;
     }
@@ -786,7 +792,7 @@ height: 84.4%;
       font-size: 1.1rem;
     }
     .wavy {
-      height: 25vh;
+      height: 10vh;
       margin-top: 0rem;
       min-height: 100px;
   }
@@ -831,7 +837,7 @@ height: 84.4%;
 
   @media (max-width: 1119px) and (min-width: 1023px){
     .img-logo {
-      height: 35vh;
+      height: 25vh;
   }
   .text-movil {
     font-size: 1.25rem;
