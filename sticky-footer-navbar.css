@@ -514,7 +514,7 @@ img.store:hover {
 }
   .slideText {
       font-size: 0.6rem !important;
-      width: 6rem;
+      width: 6rem !important;
       margin-top: 0.8rem;
       font-size: 1.1rem;
       line-height: 0.9rem;
