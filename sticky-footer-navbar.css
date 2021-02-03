@@ -510,7 +510,7 @@ img.store:hover {
       height: 15vw;
   }
   img.slideImg {
-    height: 55px;
+    height: 55px !important;
 }
   .slideText {
       font-size: 0.6rem !important;
@@ -550,7 +550,7 @@ img.store:hover {
       font-size: 1rem;
     }
     .slideText {
-      font-size: 0.9rem;
+      font-size: 0.9rem !important;
       width: 8rem;
   }
       .btnIngresoMobile {
@@ -748,9 +748,8 @@ img.slideImg {
   height: 65px;
 }
 .slideText {
-    font-size: 0.8rem !important;
     margin-top: 0.8rem;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 0.9rem;
     width: 8rem;
 }
