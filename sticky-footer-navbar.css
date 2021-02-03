@@ -816,10 +816,17 @@ height: 84.4%;
     }
   }
 
-  @media (max-width: 767px) and (min-height: 751px){
+  @media (max-width: 450px) and (min-width: 1px) and (min-height: 751px){
     
     .main {
       padding-bottom: 35vh !important;
+    }
+  }
+
+  @media (max-width: 767px) and (min-width: 451px) and (min-height: 751px){
+    
+    .main {
+      padding-bottom: 55vh !important;
     }
   }
 
