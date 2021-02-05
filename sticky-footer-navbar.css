@@ -502,6 +502,20 @@ img.store:hover {
 }
 }
 
+@media (max-width: 319px) and (min-width: 1px){
+  
+.slideText {
+    font-size: 0.65rem !important;
+}
+}
+
+@media (max-width: 335px) and (min-width: 320px){
+  .slideText {
+    font-size: 0.7rem !important;
+}
+}
+
+
   @media (max-width: 320px) and (min-width: 1px){
     .main {
       padding-bottom: 40vh !important;
@@ -513,10 +527,8 @@ img.store:hover {
     height: 55px !important;
 }
   .slideText {
-      font-size: 0.6rem !important;
       width: 6rem !important;
       margin-top: 0.8rem;
-      font-size: 1.1rem;
       line-height: 0.9rem;
   }
 
