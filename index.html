@@ -3,14 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://devipiconse.azurewebsites.net/static/IndexResponsive/assets/images/banner-IPI-redes-sociales.jpg">
     <meta property="fb:app_id" content="IPI_id" />
     <meta property="og:title" content="IPI conse" />
     <meta property="og:site_name" content="IPI conse">
     <meta property="og:url" content="https://devipiconse.azurewebsites.net" />
-    <meta property="og:image" itemprop="image" content="https://devipiconse.azurewebsites.net/static/IndexResponsive/assets/images/Logo.png" />
-    <meta property="og:image:width" content="256">
-    <meta property="og:image:height" content="256">
+    <meta property="og:image" content="https://devipiconse.azurewebsites.net/static/IndexResponsive/assets/images/banner-IPI-redes-sociales.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image" content="https://devipiconse.azurewebsites.net/static/IndexResponsive/assets/images/banner-IPI-redes-sociales-2-.png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" /> 
     <meta property="og:description" content="¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados" />
+    
+    
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -27,14 +34,16 @@
       <p class="py-0 px-4 my-0 text-center d-flex justify-content-center redes" href="#">Comparte en:</p>
       <a href="https://www.facebook.com/sharer/sharer.php?u=https://devipiconse.azurewebsites.net" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Facebook"><img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
       <a href="https://api.whatsapp.com/send?text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados  https://devipiconse.azurewebsites.net" data-action="share/whatsapp/share" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on whatsapp"><img class="img-redes pr-2" src="./assets/images/icono whatsapp-19.svg"  /></a>
-      <a href="https://twitter.com/intent/tweet?url=https://devipiconse.azurewebsites.net&text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados " onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Twitter"><img class="img-redes pr-2" src="./assets/images/icono twiter-20.svg"  /></a>
+      <a href="http://twitter.com/share?text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados&url=https://devipiconse.azurewebsites.net"
+       onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Twitter"><img class="img-redes pr-2" src="./assets/images/icono twiter-20.svg"  /></a>
+      
       
     </nav>
   </header>
 
   <div class="tiendas" class="btn btn-primary">
     
-      <img src="./assets/images/btn-tiendas.png" width="219" height="46" alt="">
+      <img src="./assets/images/Botonflotante19.svg" >
   </div>
 
   <div class="modal-tiendas" id="myModaltienda">
@@ -124,8 +133,8 @@
             <div class="row justify-content-around justify-content-md-between">
             <a class="btn btn-primary d-none d-md-flex align-items-center justify-content-center col-3 col-xl-2 btnIngreso" href="#acceder"><img class="btnIcon" src="./assets/images/icono-boton-ingresa-horizontales.svg"/>Ingresa a la web</a>
             <a class="btn btn-primary d-none d-md-flex align-items-center justify-content-center col-3 col-xl-2 btnIngreso" href="#descarga"><img class="btnIcon" src="./assets/images/icono-boton-descarga-horizontales.svg"/>Descarga la app</a>
-            <a class="btn btn-primary col-3 col-xl-2 d-flex flex-column align-items-center justify-content-center d-md-none btnIngresoMobile" href="#acceder"><img class="btnIconMobile" src="./assets/images/icono-boton-ingresa-versiónverticales.svg"/>Ingresa a la web</a>
-            <a class="btn btn-primary col-3 col-xl-2 d-flex flex-column align-items-center justify-content-center d-md-none btnIngresoMobile" href="#descarga"><img class="btnIconMobile" src="./assets/images/icono-boton-descarga-versionverticales.svg"/>Descarga la app</a>
+            <a id="accederBtn" class="btn btn-primary col-3 col-xl-2 d-flex flex-column align-items-center justify-content-center d-md-none btnIngresoMobile"><img class="btnIconMobile" src="./assets/images/icono-boton-ingresa-versiónverticales.svg"/>Ingresa a la web</a>
+            <a id="downBtn" class="btn btn-primary col-3 col-xl-2 d-flex flex-column align-items-center justify-content-center d-md-none btnIngresoMobile"><img class="btnIconMobile" src="./assets/images/icono-boton-descarga-versionverticales.svg"/>Descarga la app</a>
           </div>
         </div>
         
@@ -346,6 +355,18 @@
         $("#hamburguer").css("display", "block");
       });
 
+      $("#accederBtn").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#acceder").offset().top
+          }, 200);
+      });
+
+      $("#downBtn").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#descarga").offset().top
+          }, 200);
+      });
+
       $(document).ready(function(){
         $('.multiple-items').slick({
           infinite: true,
@@ -369,6 +390,7 @@
         ]
         });
         $("#hamburguer").click(function() {
+        $(window).scrollTop(0);
         $("#mobileMenu").slideDown(1);
         $("#mobileMenu").css("display", "flex");
         $("#hamburguer").css("display", "none");
