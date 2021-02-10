@@ -501,6 +501,15 @@ img.store:hover {
   }
 }
 
+@media (max-height: 600px) and (min-height: 1px){
+  .modalRow{
+    max-width: 500px;
+    overflow: scroll;
+    max-height: 470px;
+    min-height: unset;
+  }
+}
+
 
 @media (max-width: 335px){
   .redes {
@@ -842,12 +851,6 @@ height: 84.4%;
     
   }
 
-  @media (max-width: 767px) and (min-width: 410px) and (min-height: 650px) and (max-height: 750px){
-    
-    .main {
-      padding-bottom: 55vh !important;
-    }
-  }
   
   @media (max-width: 415px) and (min-height: 650px) and (max-height: 750px){
     
@@ -870,6 +873,69 @@ height: 84.4%;
     }
   }
 
+  @media (max-width: 767px) and (min-width: 671px) and (max-height: 567px){
+    
+    .main {   
+       padding-bottom: 120vh !important;
+       min-height: 1400px !important;
+       max-height: unset;
+       height: 90vh;
+    }
+  }
+
+  @media (max-width: 670px) and (min-width: 581px) and (max-height: 567px){
+    
+    .main {   
+       padding-bottom: 120vh !important;
+       min-height: 1230px !important;
+       max-height: unset;
+       height: 90vh;
+    }
+  }
+
+  @media (max-width: 580px) and (min-width: 491px) and (max-height: 567px){
+    
+    .main {   
+       padding-bottom: 120vh !important;
+       min-height: 1090px !important;
+       max-height: unset;
+       height: 90vh;
+    }
+  }
+
+  @media (max-width: 490px) and (min-width: 446px) and (max-height: 567px){
+    
+    .main {   
+       padding-bottom: 120vh !important;
+       min-height: 1025px !important;
+       max-height: unset;
+       height: 90vh;
+    }
+  }
+
+  @media (max-width: 445px) and (min-width: 401px) and (max-height: 567px){
+    
+    .main {   
+       padding-bottom: 120vh !important;
+       min-height: 950px !important;
+       max-height: unset;
+       height: 90vh;
+    }
+  }
+
+  @media (max-width: 400px) and (min-width: 1px) and (max-height: 567px){
+    
+    .main {   
+       padding-bottom: 120vh !important;
+       min-height: 870px !important;
+       max-height: unset;
+       height: 90vh;
+    }
+  }
+
+
+
+ 
   @media (max-width: 1022px) and (min-width: 768px) {
     .migrar {
       margin-top: -1rem; 
