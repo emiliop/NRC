@@ -728,9 +728,7 @@ img.store:hover {
     font-size: 1.1rem;
     word-spacing: 2px;
 }
-.video {
-  height: 30vh;
-}
+
 .text-titulo{
   font-size: 1.7rem;
     word-spacing: 0px;
@@ -851,6 +849,21 @@ height: 84.4%;
     
   }
 
+  @media (max-width: 1025px) and (min-width: 769px) {
+  .video {
+    height: 35vh;
+    width: 90%;
+      min-height: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .video {
+    height: 23vh;
+    width: 90%;
+      min-height: unset;
+  }
+}
   
   @media (max-width: 415px) and (min-height: 650px) and (max-height: 750px){
     
