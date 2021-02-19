@@ -825,7 +825,7 @@ img.slideImg {
 }
 
 .store{
-height: 13vh;
+height: 10vh !important;
 }
 .footer-img-nrc {
   margin-left: 0rem !important;
