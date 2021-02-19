@@ -25,6 +25,9 @@
     
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="./assets/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="./assets/fontawesome/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./js/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css"/>
   </head>
@@ -32,7 +35,7 @@
     <nav class="d-flex flex-row align-items-center justify-content-end">
       
       <p class="py-0 px-4 my-0 text-center d-flex justify-content-center redes" href="#">Comparte en:</p>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https://devipiconse.azurewebsites.net" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Facebook"><img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://devipiconse.azurewebsites.net" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_top" title="Share on Facebook"><img class="img-redes pr-2" src="./assets/images/icono facebook-18.svg"  /></a>
       <a href="https://api.whatsapp.com/send?text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados  https://devipiconse.azurewebsites.net" data-action="share/whatsapp/share" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on whatsapp"><img class="img-redes pr-2" src="./assets/images/icono whatsapp-19.svg"  /></a>
       <a href="http://twitter.com/share?text=¡Hola! Conoce y comparte IPI Conse, una plataforma con información útil y confiable para migrantes y refugiados&url=https://devipiconse.azurewebsites.net"
        onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="Share on Twitter"><img class="img-redes pr-2" src="./assets/images/icono twiter-20.svg"  /></a>
@@ -87,31 +90,31 @@
   <div id="mobileMenu" class="row menuMobile flex-column justify-content-center align-items-center">
     <img id="hamburguerMobile" class="img-menuMobile offset-0 offset-md-2 mt-5 mb-4" src="./assets/images/menu-hamburguesa-menu abierto.svg"  />
     <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3 ">
-      <a href="#quees" class="d-flex flex-row text-decoration-none text-dark">
+      <a id="mblquees" class="d-flex flex-row text-decoration-none text-dark">
         <img class="imgMenu" src="./assets/images/icono-que-es-menu-movil-11.svg" alt="">
         <p class="ms-4 mb-0 textMenu align-self-center">¿Qué es IPI Conse?</p>
       </a>
     </div>
     <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
-      <a href="#como" class="d-flex flex-row text-decoration-none text-dark">
+      <a id="mblcomo" class="d-flex flex-row text-decoration-none text-dark">
         <img class="imgMenu" src="./assets/images/icono-como-funciona-menu-movil-12.svg" alt="">
         <p class="ms-4 mb-0 textMenu align-self-center">¿Cómo funciona?</p>
       </a>
     </div>
     <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
-      <a href="#servicios" class="d-flex flex-row text-decoration-none text-dark">
+      <a id="mblservicios" class="d-flex flex-row text-decoration-none text-dark">
         <img class="imgMenu" src="./assets/images/icono-servicios-menu-movil-13.svg" alt="">
         <p class="ms-4 mb-0 textMenu align-self-center">Información útil</p>
       </a>
     </div>
     <div class="col-9 sectionMobile d-flex flex-row pb-3 pt-3">
-      <a href="#acceder" class="d-flex flex-row text-decoration-none text-dark">
+      <a id="mblacceder" class="d-flex flex-row text-decoration-none text-dark">
         <img class="imgMenu" src="./assets/images/icono-ingresar-menu-movil-14.svg" alt="">
         <p class="ms-4 mb-0 textMenu align-self-center">Ingresa a la web</p>
       </a>
     </div>
     <div class="col-9 d-flex flex-row pb-3 pt-3">
-      <a href="#descarga" class="d-flex flex-row text-decoration-none text-dark">
+      <a id="mbldescarga" class="d-flex flex-row text-decoration-none text-dark">
         <img class="imgMenu" src="./assets/images/icono-descarga-menu-movil-15.svg" alt="">
         <p class="ms-4 mb-0 textMenu align-self-center">Descarga la app</p>
       </a>
@@ -169,7 +172,7 @@
             <p id="como" class=" text-center text-titulo col-12 col-md-6 mt-4 bodyText">¿Cómo funciona IPI Conse?</p>
             <p class=" text-center text-movil mt-0 mt-md-2 pb-4 pb-md-5 bodyText">Mira el video y entenderás fácilmente de qué trata <b>esta app</b></p>
           </div>
-          <iframe class="video" src="https://www.youtube.com/embed/jQ-HsFsmC8o?autoplay=0&amp;autohide=1&amp;enablejsapi=1&amp;wmode=opaque"  allow="accelerometer; gyroscope; picture-in-pictur; autoplay; fullscreen" allowfullscreen></iframe>
+          <div class="video youtube-iframe" data-embed="jQ-HsFsmC8o"></div>
           <div class="backgray">
             <a class="btn btn-primary col-3 col-xl-2 py-3 btnIngreso2 mb-2 mb-md-4" href="#descarga">Descarga ahora</a>
           </div>
@@ -313,12 +316,12 @@
           <div class="row">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
               <p class=" text-center text-movil4"><b>IPI Conse en tu Android</b></p>
-              <p class=" text-center text-movil5">Haz clic aqui para instalar</p>
+              <p class=" text-center text-movil5">Haz clic <a href="https://play.google.com/store/apps/details?id=co.conse.ipi&hl=en" target="_blank">aquí</a> para instalar</p>
               <a  class=" d-flex flex-column justify-content-center align-items-center" href="https://play.google.com/store/apps/details?id=co.conse.ipi&hl=en" target="_blank"> <img  class="store" src="./assets/images/Logo google play.svg"  /></a>
             </div>
             <div class="col-12 col-md-6 destino d-flex flex-column justify-content-center">
               <p class=" text-center text-movil4"><b>IPI Conse en tu IPhone</b></p>
-              <p class=" text-center text-movil5">Haz clic aqui para instalar</p>
+              <p class=" text-center text-movil5">Haz clic <a href="https://apps.apple.com/us/app/ipi-conse/id1463912325?l=es&ls=1" target="_blank">aquí</a> para instalar</p>
               <a  class="d-flex flex-column justify-content-center align-items-center" href="https://apps.apple.com/us/app/ipi-conse/id1463912325?l=es&ls=1" target="_blank"> <img  class="store" src="./assets/images/Logo apple store.svg"  /></a>
             </div>
             </div>
@@ -364,6 +367,37 @@
       $("#downBtn").click(function() {
           $('html, body').animate({
               scrollTop: $("#descarga").offset().top
+          }, 200);
+      });
+
+      $("#mblquees").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#quees").offset().top +50
+          }, 200);
+      });
+
+      $("#mblcomo").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#como").offset().top +20
+          }, 200);
+      });
+
+      $("#mblservicios").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#servicios").offset().top
+          }, 200);
+      });
+
+      $("#mblacceder").click(function() {
+          
+          $('html, body').animate({
+              scrollTop: $("#acceder").offset().top +50
+          }, 200);
+      });
+
+      $("#mbldescarga").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#descarga").offset().top +10
           }, 200);
       });
 
@@ -436,7 +470,29 @@
 //           }
 //      });
 // };
+$('.youtube-iframe').each(function(){
 
+  $imgID = $(this).data('embed');
+
+  $imgURL = '<i class="fab fa-youtube"></i><img src="https://i.ytimg.com/vi/'+ $imgID +'/hqdefault.jpg">';
+
+  $(this).html($imgURL);
+});
+
+$('.youtube-iframe').click(function(){
+		var iframe = document.createElement( "iframe" );
+
+		iframe.setAttribute( "frameborder", "0" );
+		iframe.setAttribute( "allowfullscreen", "" );
+		// set width for your video here
+		iframe.setAttribute( "width", "100%" );
+		// set height for your video here
+		iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+		this.innerHTML = "";
+		this.appendChild( iframe );
+
+	}) ;
 
 function setPlanYourTrip(){
      var originSelected = $("#select_origin").find("option:selected").val();
