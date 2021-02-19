@@ -600,7 +600,7 @@ img.store:hover {
     }
     
 .store{
- height: 84.4%;
+ height: 9vh !important;
 }
     .footer-img-nrc {
        margin-left: 1rem; 
