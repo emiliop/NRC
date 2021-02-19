@@ -451,6 +451,7 @@ img.store:hover {
     right: 2rem;
     bottom: 5rem;
     cursor: pointer;
+    z-index: 1;
   }
   .tiendas img{
     width: 5rem;
