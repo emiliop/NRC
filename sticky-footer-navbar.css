@@ -802,7 +802,9 @@ img.slideImg {
     line-height: 0.9rem;
     width: 7.5rem;
 }
-
+.slick-slide{
+  height: unset !important;
+}
 .selector2 {
   margin-left: 0rem;
   margin-top: 2rem;
